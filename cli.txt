@@ -1,0 +1,5 @@
+aws translate translate-text \
+            --region "ap-northeast-1" \
+            --source-language-code "ja" \
+            --target-language-code "en" \
+            --text "ようこそ、データサイエンス研究所へ"
